@@ -29,23 +29,27 @@ block2{
     justify-content: center;
     align-items: center;
 }
+.box{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
 container2{
     outline: 2px solid magenta;
     width: 300px;
     height: 200px;
-    display: flex;
 }
-block3{
+#One{
     border: 2px dashed yellow;
     width: 50px;
     height: 200px;
-    position: fixed;
-    right: 0px;
+    position: relative;
+    left: 255px;
 }
-block4{
+#Two{
     border: 2px solid blue;
     width: 300px;
     height: 70px;
-    position: fixed;
-    bottom: 0px;
+    position: relative;
+    bottom: 1px;
 }
